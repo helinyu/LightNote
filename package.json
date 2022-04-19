@@ -11,6 +11,7 @@
     "d3": "^7.0.1",
     "dexie": "^3.0.3",
     "dexie-export-import": "^1.0.3",
+    "element-plus": "^2.1.10",
     "vue": "^3.2.6",
     "webdav": "^4.7.0"
   },
