@@ -1,0 +1,14 @@
+{
+    "appTitle": {
+        "message": "LightNote",
+        "description": "The title of this chrome extension"
+    },
+    "appDescription": {
+        "message": "LightNote a light weight note.",
+        "description": "the description of this chrome extension"
+    },
+    "actionTitle": {
+        "message": "LightNote",
+        "description": "the content show when mouse hover the icon of this chrome extension in browser toolbar"
+    }
+}
