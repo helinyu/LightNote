@@ -1,21 +1,45 @@
-<script setup>
-// This starter template is using Vue 3 <script setup> SFCs
-// Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
-import HelloWorld from '../components/HelloWorld.vue'
-</script>
-
 <template>
-  <img alt="Vue logo" src="@/assets/images/logo_64.png" />
-  <HelloWorld msg="Hello Vue 3 + Vite" />
+  <div class="popup-wrapper" :style="wrapperStyle">
+    阿斯蒂芬黄金卡了还是地方接口
+    <Footer />
+  </div>
 </template>
 
+<script lang="js">
+import { defineComponent, provide, ref, reactive, computed } from "vue";
+import Footer from './Footer/index.vue'
+export default ({
+  components: {
+    Footer,
+  }
+});
+
+</script>
+
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+.popup-wrapper {
+
+  width: 500px;
+  height: 500px;
+  background-color: rgb(89, 161, 185);
+  /* position: fixed;
+  right: 0px;
+  top: 1vh;
+  width: 500px;
+  min-width: 500px;
+  height: 98vh;
+  overflow-y: scroll;
+  background-color: rgba(100, 108, 255, 0.8);
+  opacity: 1;
+  border-radius: 10px;
+  z-index: 9999; */
+
+  /* .popup-close {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    cursor: pointer;
+    color: white;
+  } */
 }
 </style>

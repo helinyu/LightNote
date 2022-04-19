@@ -3,7 +3,14 @@
   "manifest_version": 3,
   "version": "0.0.1",
   "description": "__MSG_appDescription__",
-  "permissions": ["bookmarks", "tabs", "storage", "unlimitedStorage", "activeTab"],
+  "permissions": [
+    "contextMenus",
+    "bookmarks",
+    "tabs",
+    "storage",
+    "unlimitedStorage",
+    "activeTab"
+  ],
   "background": {
     "service_worker": "./background/index.js",
     "type": "module"
@@ -30,5 +37,6 @@
     "64": "./assets/images/logo_64.png",
     "128": "./assets/images/logo_128.png"
   },
-  "default_locale": "en"
+  "default_locale": "en",
+  "homepage_url": "https://github.com/helinyu/LightNote"
 }
