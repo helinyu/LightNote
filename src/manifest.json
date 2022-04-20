@@ -38,5 +38,22 @@
     "128": "./assets/images/logo_128.png"
   },
   "default_locale": "en",
+  "commands": {
+    "run-save": {
+      "suggested_key": {
+        "default": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y"
+      },
+      "description": "Run \"foo\" on the current page."
+    },
+    "_execute_action": {
+      "suggested_key": {
+        "windows": "Ctrl+Shift+Y",
+        "mac": "Command+Shift+Y",
+        "chromeos": "Ctrl+Shift+U",
+        "linux": "Ctrl+Shift+J"
+      }
+    }
+  },
   "homepage_url": "https://github.com/helinyu/LightNote"
 }
