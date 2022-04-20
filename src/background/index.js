@@ -17,7 +17,7 @@ chrome.runtime.onInstalled.addListener(() => {
   chrome.contextMenus.create(
     {
       type: "normal",
-      title: "添加到LightNote (Ctrl+S)",
+      title: "添加到LightNote (Command+Shift+Y)",
       id: "light-note",
       contexts: ["all"],
     },
@@ -34,6 +34,7 @@ chrome.contextMenus.onClicked.addListener(info => {
   })
 })
 
+//  监听快捷键的的方法
 chrome.commands.onCommand.addListener((command) => {
   console.log(`Command: ${command}`);
 });
